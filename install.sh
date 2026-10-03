@@ -2,12 +2,12 @@
 # ==============================================================================
 #  Antigravity & AI Bypass for macOS (Belarus Edition) - Installer
 #  One-line installer:
-#  curl -fsSL https://raw.githubusercontent.com/basmakoffcerk-svg/antigravity-fix-dns/main/install.sh | bash
+#  curl -fsSL https://raw.githubusercontent.com/anycastbss/antigravity-fix-dns/main/install.sh | bash
 # ==============================================================================
 
 set -euo pipefail
 
-REPO_RAW_URL="${AGY_REPO_URL:-https://raw.githubusercontent.com/basmakoffcerk-svg/antigravity-fix-dns/main}"
+REPO_RAW_URL="${AGY_REPO_URL:-https://raw.githubusercontent.com/anycastbss/antigravity-fix-dns/main}"
 INSTALL_DIR="${HOME}/.antigravity-fix-dns"
 BIN_DIR="${HOME}/.local/bin"
 BIN_LINK="${BIN_DIR}/agy-dns"

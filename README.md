@@ -20,7 +20,7 @@
 Откройте Терминал на Mac и выполните:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/basmakoffcerk-svg/antigravity-fix-dns/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/anycastbss/antigravity-fix-dns/main/install.sh | bash
 ```
 
 Установщик создаст системную команду **`agy-dns`**, настроит окружение и предложит сразу включить защиту.
