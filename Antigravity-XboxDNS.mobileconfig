@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadIdentifier</key>
+    <string>com.antigravity.dns.xbox-dns</string>
+    <key>PayloadUUID</key>
+    <string>B68C0E4B-8E4A-4D78-9B21-8E5D6D9E4D99</string>
+    <key>PayloadDisplayName</key>
+    <string>Antigravity &amp; Xbox DNS (DoH)</string>
+    <key>PayloadDescription</key>
+    <string>Настраивает зашифрованный DNS over HTTPS (DoH) через xbox-dns.ru для стабильной работы Antigravity, Gemini, Claude и сервисов в Беларуси.</string>
+    <key>PayloadOrganization</key>
+    <string>Antigravity BY Fix</string>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>com.antigravity.dns.xbox-dns.settings</string>
+            <key>PayloadUUID</key>
+            <string>D84A3C2F-1D4E-4B9C-8A32-9F1C7C45A88B</string>
+            <key>PayloadDisplayName</key>
+            <string>Antigravity DoH Settings</string>
+            <key>PayloadDescription</key>
+            <string>DNS over HTTPS: https://xbox-dns.ru/dns-query</string>
+            <key>ProhibitDisablement</key>
+            <false/>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerURL</key>
+                <string>https://xbox-dns.ru/dns-query</string>
+                <key>ServerAddresses</key>
+                <array>
+                    <string>111.88.96.54</string>
+                    <string>111.88.96.55</string>
+                    <string>2a00:ab00:1233:26::50</string>
+                    <string>2a00:ab00:1233:26::51</string>
+                </array>
+                <key>ServerName</key>
+                <string>xbox-dns.ru</string>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>
